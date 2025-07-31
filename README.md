@@ -1,74 +1,48 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Tip Calculator
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+A simple and intuitive web application built with HTML, CSS, and vanilla JavaScript to calculate the appropriate tip and the total bill amount based on the service quality.
 
-Além de outros recursos falados nas aulas!
+## ✨ Features
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+-   **Bill Amount Input:** Enter the total amount of your bill.
+-   **Service Quality Selector:** Choose the quality of the service from a dropdown menu with different percentage options (e.g., Excellent - 10%, Great - 8%).
+-   **Automatic Calculation:** Instantly calculates the tip amount and the final total amount with a button click.
+-   **Responsive Design:** The layout adapts to different screen sizes, making it usable on both desktop and mobile devices.
+-   **Input Validation:** Alerts the user if the bill amount entered is not a valid number.
+-   **Clean UI:** A modern, card-based interface for a pleasant user experience.
 
-Abaixo como cada página deve ser criada e estruturada.
+## 🛠️ Technologies Used
 
-### Estrutura das páginas
+-   **HTML5:** For the structure and content of the application.
+-   **CSS3:** For styling, layout (using Flexbox), and responsive design.
+-   **JavaScript:** For the calculation logic and user interaction.
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+## 🚀 Getting Started
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+To run this project locally, follow these simple steps:
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+1.  **Download or Clone the Repository**
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+    You can either download the project files as a ZIP or clone the repository if you have Git installed:
+    ```bash
+    git clone <your-repository-url>
+    ```
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+2.  **Navigate to the Project Directory**
+    ```bash
+    cd trilha-html-modulo-2
+    ```
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+3.  **Open the Application**
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+    Open the `index.html` file in your favorite web browser (like Chrome, Firefox, or Edge).
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+4.  **How to Use**
+    -   Enter the bill amount in the "Valor da conta" (Bill amount) field.
+    -   Select the service quality from the "Qualidade do serviço" (Service quality) dropdown.
+    -   Click the "Calcular Gorjeta" (Calculate Tip) button.
+    -   The results will be displayed in the "Valor da gorjeta" (Tip amount) and "Valor total" (Total amount) fields.
 
+---
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
-
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
-
-Bora pra cima!
+*This project is part of a learning path and serves as a practical exercise in front-end web development.*

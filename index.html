@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Gorjeta</h1>
+
+        <div class="form-group">
+            <label for="valorConta">Valor da conta:</label>
+            <div class="input-rs">
+                <span>R$</span>
+                <input type="number" id="valorConta" placeholder="0.00">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="qualidadeServico">Qualidade do serviço:</label>
+            <select id="qualidadeServico">
+                <option value="0.10">Excelente - 10%</option>
+                <option value="0.08">Ótimo - 8%</option>
+                <option value="0.05">Bom - 5%</option>
+                <option value="0.02">Ruim - 2%</option>
+            </select>
+        </div>
+
+        <button id="calcularGorjeta" onclick="calcularGorjetas()"">Calcular Gorjeta</button>
+
+        <div class="form-group">
+            <label for="valorGorjeta">Valor da gorjeta:</label>
+            <input type="text" id="valorGorjeta" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="valorTotal">Valor total:</label>
+            <input type="text" id="valorTotal" readonly>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
